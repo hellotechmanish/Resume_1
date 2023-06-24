@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            max-width: 600px;
+            margin: auto;
+        }
+
+
+        body {
+            min-width: 500px;
+            border-radius:5px;
+            background: linear-gradient(50deg,rgb(32, 224, 52),rgb(123, 140, 238));
+        }
+
+        div {
+            border-radius: 5px;
+        }
+
+
+        .resume {
+            text-align: center;
+        }
+        .mk{
+            color: #e0eeee;
+            text-shadow: 0 0 3px #FF0000;
+        }
+
+        #header {
+            height: 40px;
+            width: 100%;
+            background-color: #ffcccc;
+            position: fixed;
+            z-index: 1;
+        }
+
+        #title {
+            margin-left: 3%;
+        }
+
+        #footer {
+            height: 50px;
+            width: 100%;
+            background-color: #ffcccc;
+            clear: both;
+            position: relative;
+        }
+
+        .left {
+            height: 1000px;
+            width: 40px;
+            background-color: #e0eeee;
+            float: left;
+            position: fixed;
+        }
+
+        .right {
+            height: 1060px;
+            width: 40px;
+            background-color: #e0eeee;
+            float: right;
+            position: inherit;
+        }
+
+        .stuff {
+            display: inline-block;
+            margin-top: 6px;
+            margin-left: 55px;
+            width: 75%;
+            height: 1000px;
+        }
+
+        p,
+        li {
+            font-family: 'Cormorant Garamond';
+        }
+
+        .head {
+            font-size: 20px;
+            font-weight: bold;
+            font-family:serif ;
+            color: rgb(231, 83, 83);
+            
+        }
+
+        #name {
+            font-family: Sacramento;
+            float: right;
+            margin-top: 10px;
+            margin-right: 4%;
+        }
+
+        a {
+            color: black;
+            text-decoration: none;
+        }
+
+        @media only screen and (max-width: 440px) {
+
+            .left,
+            .right {
+                display: none;
+            }
+
+            .stuff {
+                width: 100%;
+                margin-left: 10px;
+            }
+        }
+
+        .fa {
+  padding: 1px,2px;
+  width: 10px;
+  text-align: center;
+  text-decoration: none;
+  margin: 2px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+.social_media,h2{
+   text-align: center;
+   margin-bottom: 10px;
+   
+      
+}
+.social_media{
+    width: 250;
+    height:10px;
+}
+
+     
+    </style>
+</head>
+
+<body>
+
+
+    <div id="header"></div>
+    <div class="left"></div>
+    <div class="stuff">
+        <br><br>
+        <div class="resume">
+            <h1>Resume</h1>
+        </div>
+        <h2><span class="mk">MANISH</span> KUMAR</h2>
+        <hr />
+        <br>
+        <p class="head">Interests</p>
+        <ul>
+            
+            <li>Programming</li>
+            <li>Video Editor</li>
+            <li>Computer Science</li>
+            <li>Photography</li>
+        </ul>
+        <p class="head">Skills</p>
+        <ul>
+            <li>Web Devlopment</li>
+            <li>CPP Programming</li>
+        </ul>
+        <p class="head">Education</p>
+        <ul>
+            <a href="">
+                <li>S.s.d inter college</li>
+            </a>
+            <!--Link-->
+            <a href="">
+                <li>S.S.k inter college</li>
+            </a>
+                 <li>Leet code</li>
+        </ul>
+        <p class="head">Experience</p>
+        <ul>
+            <li>HTML CSS 1 YEAR Experience</li>
+            <li>Video Creator</li>
+        </ul>
+        <p class="head">Extracurriculars</p>
+        <ul>
+            <li>Recycling Club</li>
+            <li>Gardening Club</li>
+           
+        </ul>
+
+        <div class="social_media">
+
+            <br><h2 style="color: white;  text-shadow: 0 4px 8px #050303;"  >Social Media Handle</h2><br>
+        
+        <!-- Add font awesome icons -->
+        <a href="https://www.linkedin.com/in/manish-kumar-0526b020b" class="fa fa-linkedin"><img  height="40px"  src="https://www.freepnglogos.com/uploads/linkedin-basic-round-social-logo-png-13.png"></a>
+        <a href="https://www.facebook.com/kumarmanish70" class="fa fa-facebook"><img  height="40px" src="https://www.freepnglogos.com/uploads/facebook-logo-icon/facebook-logo-icon-facebook-icon-png-images-icons-and-png-backgrounds-1.png"></a>
+        <a href="https://www.youtube.com/@TechManish70" class="fa fa-youtube"><img   height="40px" src="https://www.freepnglogos.com/uploads/youtube-logo-icon-transparent---32.png"></a>
+        <a href="https://www.instagram.com/kumar_manish70/" class="fa fa-instagram"><img height="40px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/640px-Instagram_icon.png"></a>
+        
+      
+        </div>
+
+    </div>
+    <div class="right"></div>
+    <div id="footer">
+        <h2 id="name">Manish kumar</h2>
+    </div>
+
+
+</body>
+
+</html>
